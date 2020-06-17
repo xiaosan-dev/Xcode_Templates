@@ -8,14 +8,7 @@ enum ___FILEBASENAMEASIDENTIFIER___ {
 }
 
 extension ___FILEBASENAMEASIDENTIFIER___: TargetType {
-    var sampleData: Data {
-        return Data()
-    }
-
-    var headers: [String: String]? {
-        return nil
-    }
-
+    
     var baseURL: URL {
         return <#url#>
     }
@@ -26,6 +19,18 @@ extension ___FILEBASENAMEASIDENTIFIER___: TargetType {
 
     var method: Moya.Method {
         return .get
+    }
+    
+    var headers: [String: String]? {
+        return nil
+    }
+    
+    var sampleData: Data {
+        return Data()
+    }
+    
+    var task: Task {
+        <#code#>
     }
 
 }

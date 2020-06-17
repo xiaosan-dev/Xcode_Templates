@@ -5,7 +5,7 @@ import ReactorKit
 import RxSwift
 import RxCocoa
 
-class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
+class ___FILEBASENAMEASIDENTIFIER___: BaseViewController {
     
     static func instance() -> ___FILEBASENAMEASIDENTIFIER___ {
         let controller = ___FILEBASENAMEASIDENTIFIER___()
@@ -26,6 +26,6 @@ extension ___FILEBASENAMEASIDENTIFIER___: StoryboardView {
     typealias Reactor = <#ReactorName#>
     
     func bind(reactor: Reactor) {
-        <#bind reactor#>
+        
     }
 }
