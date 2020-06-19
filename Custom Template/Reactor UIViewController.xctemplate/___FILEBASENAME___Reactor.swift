@@ -5,11 +5,11 @@ import ReactorKit
 import RxSwift
 
 class ___FILEBASENAMEASIDENTIFIER___: Reactor {
-    
+
     enum Action {
         <#MyEnumValueA#>
     }
-    
+
     enum Mutation {
         <#MyEnumValueA#>
     }
@@ -17,13 +17,13 @@ class ___FILEBASENAMEASIDENTIFIER___: Reactor {
     struct State {
         <#struct fields#>
     }
-    
+
     let initialState: State
-    
+
     init() {
         <#initialization#>
     }
-    
+
     func mutate(action: Action) -> Observable<Mutation> {
         switch action {
         case <#pattern#>:
@@ -33,7 +33,7 @@ class ___FILEBASENAMEASIDENTIFIER___: Reactor {
         }
         return .just(<#mutation#>)
     }
-    
+
     func reduce(state: State, mutation: Mutation) -> State {
         var state = State()
         switch mutation {
